@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('!!! Hello DevOps FS2024. In acht Tagen ist Abgabetermin. Nicht vergessen!');
+  res.send('!!! Hello DevOps FS2024. In acht Tagen ist Abgabetermin. Nicht vergessen! Ich wünsch noch viel Erfolg.');
 });
 
 app.listen(PORT, HOST);
